@@ -1,2 +1,2 @@
 @ECHO off
-node . %*
+node %~dp0 %*
