@@ -14,8 +14,6 @@ if(args.length == 0){
     process.stdout.write('Servers In Use:\n'+servers.join('\n')+'\n');
 
     process.stdout.write('=================================\n');
-    process.stdout.write('Help:\n');
-    process.stdout.write('=================================\n');
 }
 
 if(args[0] === '--resolve' || args[0] === '-r'){
